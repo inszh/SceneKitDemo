@@ -28,29 +28,34 @@
 
 - (void)setupView {
     
+    CGFloat ScreenW=[UIScreen mainScreen].bounds.size.width;
+    CGFloat ScreenH=[UIScreen mainScreen].bounds.size.height;
+
     SCNView *scnView=[SCNView new];
     self.scnView=scnView;
-    scnView.allowsCameraControl = true;
+//    scnView.allowsCameraControl = true;
     scnView.autoenablesDefaultLighting = true;
     scnView.showsStatistics = true;
-    scnView.frame=self.view.bounds;
-    [self.view addSubview:scnView];
+    scnView.frame=CGRectMake(0 ,0 ,ScreenW, ScreenH*0.7);
     scnView.scene=[SCNScene sceneNamed:@"man1.obj"];
-    
+    [self.view addSubview:scnView];
+
     UIScrollView *scrollView=[UIScrollView new];
-    scrollView.frame=self.view.bounds;
+    scrollView.frame=CGRectMake(0 ,ScreenH-(ScreenH*0.3) ,ScreenW, ScreenH*0.3);
     scrollView.delegate=self;
-    CGFloat ScreenW=[UIScreen mainScreen].bounds.size.width;
     scrollView.contentSize=CGSizeMake(ScreenW*20, 0);
     [scrollView setContentOffset:CGPointMake((((ScreenW*20)-ScreenW)*0.5),0) animated:NO];
     scrollView.bounces = NO;
     [self.view addSubview:scrollView];
+
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+    [scnView addGestureRecognizer:tapGesture];
     
 }
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    NSLog( @"%f",scrollView.contentOffset.x);
+//    NSLog( @"%f",scrollView.contentOffset.x);
     
     CGFloat value =scrollView.contentOffset.x;
     
@@ -71,6 +76,26 @@
     [scrollView setContentOffset:scrollView.contentOffset animated:NO];
 }
 
+- (void) handleTap:(UIGestureRecognizer*)gestureRecognize
+{
+    CGPoint p = [gestureRecognize locationInView:gestureRecognize.view];
+    NSArray *hitResults = [self.scnView hitTest:p options:nil];
+    
+    if([hitResults count] > 0){
+        SCNHitTestResult *result = hitResults.firstObject;
+        NSLog(@"%@",self.scnView.scene.rootNode.childNodes.firstObject);
+        
+//        SCNNode *node = result.node;
+        CGFloat x =result.localCoordinates.x;
+        CGFloat y =result.localCoordinates.y;
+        CGFloat z =result.localCoordinates.z;
+        NSLog(@"%f--%f--%f",x,y,z);
+        
+        
+    }
+    
+
+}
 
 
 
