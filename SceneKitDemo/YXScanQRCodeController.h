@@ -6,8 +6,8 @@
 //  Copyright © 2018年 小华. All rights reserved.
 //
 
-//#import "LBXScanViewController.h"
-#import <UIKit/UIKit.h>
-@interface YXScanQRCodeController : UIViewController
+#import <LBXScanViewController.h>
+
+@interface YXScanQRCodeController : LBXScanViewController
 
 @end

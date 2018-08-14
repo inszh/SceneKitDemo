@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		288D60C67D9389250D79088E /* libPods-SceneKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F428F17A1665366D261F22FE /* libPods-SceneKitDemo.a */; };
 		490B94EC2122C39700C3D587 /* YXScanQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B94EA2122C39700C3D587 /* YXScanQRCodeController.m */; };
+		490B95182122CC4600C3D587 /* LBXPermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B95022122CC4600C3D587 /* LBXPermissionMicrophone.m */; };
+		490B95192122CC4600C3D587 /* LBXPermissionNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B95032122CC4600C3D587 /* LBXPermissionNetwork.m */; };
+		490B951A2122CC4600C3D587 /* LBXPermissionCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B95042122CC4600C3D587 /* LBXPermissionCalendar.m */; };
+		490B951B2122CC4600C3D587 /* LBXPermissionReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B95092122CC4600C3D587 /* LBXPermissionReminders.m */; };
+		490B951C2122CC4600C3D587 /* LBXPermissionHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B950A2122CC4600C3D587 /* LBXPermissionHealth.m */; };
+		490B951D2122CC4600C3D587 /* LBXPermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B950B2122CC4600C3D587 /* LBXPermissionSetting.m */; };
+		490B951E2122CC4600C3D587 /* LBXPermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B950C2122CC4600C3D587 /* LBXPermissionPhotos.m */; };
+		490B951F2122CC4600C3D587 /* LBXPermissionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B95102122CC4600C3D587 /* LBXPermissionLocation.m */; };
+		490B95202122CC4600C3D587 /* LBXPermissionContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B95112122CC4600C3D587 /* LBXPermissionContacts.m */; };
+		490B95212122CC4600C3D587 /* LBXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B95122122CC4600C3D587 /* LBXPermissionCamera.m */; };
+		490B95222122CC4600C3D587 /* LBXPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B95132122CC4600C3D587 /* LBXPermission.m */; };
 		49343F67211D3309007FC853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49343F66211D3309007FC853 /* AppDelegate.m */; };
 		49343F6A211D3309007FC853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49343F69211D3309007FC853 /* ViewController.m */; };
 		49343F6D211D3309007FC853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49343F6B211D3309007FC853 /* Main.storyboard */; };
@@ -48,6 +59,29 @@
 		02037A7ED442F2B111414B6A /* Pods-SceneKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneKitDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SceneKitDemoTests/Pods-SceneKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		490B94EA2122C39700C3D587 /* YXScanQRCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXScanQRCodeController.m; sourceTree = "<group>"; };
 		490B94EB2122C39700C3D587 /* YXScanQRCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXScanQRCodeController.h; sourceTree = "<group>"; };
+		490B95022122CC4600C3D587 /* LBXPermissionMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionMicrophone.m; sourceTree = "<group>"; };
+		490B95032122CC4600C3D587 /* LBXPermissionNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionNetwork.m; sourceTree = "<group>"; };
+		490B95042122CC4600C3D587 /* LBXPermissionCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCalendar.m; sourceTree = "<group>"; };
+		490B95052122CC4600C3D587 /* LBXPermissionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionLocation.h; sourceTree = "<group>"; };
+		490B95062122CC4600C3D587 /* LBXPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermission.h; sourceTree = "<group>"; };
+		490B95072122CC4600C3D587 /* LBXPermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCamera.h; sourceTree = "<group>"; };
+		490B95082122CC4600C3D587 /* LBXPermissionContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionContacts.h; sourceTree = "<group>"; };
+		490B95092122CC4600C3D587 /* LBXPermissionReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionReminders.m; sourceTree = "<group>"; };
+		490B950A2122CC4600C3D587 /* LBXPermissionHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionHealth.m; sourceTree = "<group>"; };
+		490B950B2122CC4600C3D587 /* LBXPermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionSetting.m; sourceTree = "<group>"; };
+		490B950C2122CC4600C3D587 /* LBXPermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionPhotos.m; sourceTree = "<group>"; };
+		490B950D2122CC4600C3D587 /* LBXPermissionCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCalendar.h; sourceTree = "<group>"; };
+		490B950E2122CC4600C3D587 /* LBXPermissionNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionNetwork.h; sourceTree = "<group>"; };
+		490B950F2122CC4600C3D587 /* LBXPermissionMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionMicrophone.h; sourceTree = "<group>"; };
+		490B95102122CC4600C3D587 /* LBXPermissionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionLocation.m; sourceTree = "<group>"; };
+		490B95112122CC4600C3D587 /* LBXPermissionContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionContacts.m; sourceTree = "<group>"; };
+		490B95122122CC4600C3D587 /* LBXPermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCamera.m; sourceTree = "<group>"; };
+		490B95132122CC4600C3D587 /* LBXPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermission.m; sourceTree = "<group>"; };
+		490B95142122CC4600C3D587 /* LBXPermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionPhotos.h; sourceTree = "<group>"; };
+		490B95152122CC4600C3D587 /* LBXPermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionSetting.h; sourceTree = "<group>"; };
+		490B95162122CC4600C3D587 /* LBXPermissionHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionHealth.h; sourceTree = "<group>"; };
+		490B95172122CC4600C3D587 /* LBXPermissionReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionReminders.h; sourceTree = "<group>"; };
+		490B95232122CCC200C3D587 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		49343F62211D3309007FC853 /* SceneKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49343F65211D3309007FC853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49343F66211D3309007FC853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -126,6 +160,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		490B95012122CC4600C3D587 /* LBXPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				490B95022122CC4600C3D587 /* LBXPermissionMicrophone.m */,
+				490B95032122CC4600C3D587 /* LBXPermissionNetwork.m */,
+				490B95042122CC4600C3D587 /* LBXPermissionCalendar.m */,
+				490B95052122CC4600C3D587 /* LBXPermissionLocation.h */,
+				490B95062122CC4600C3D587 /* LBXPermission.h */,
+				490B95072122CC4600C3D587 /* LBXPermissionCamera.h */,
+				490B95082122CC4600C3D587 /* LBXPermissionContacts.h */,
+				490B95092122CC4600C3D587 /* LBXPermissionReminders.m */,
+				490B950A2122CC4600C3D587 /* LBXPermissionHealth.m */,
+				490B950B2122CC4600C3D587 /* LBXPermissionSetting.m */,
+				490B950C2122CC4600C3D587 /* LBXPermissionPhotos.m */,
+				490B950D2122CC4600C3D587 /* LBXPermissionCalendar.h */,
+				490B950E2122CC4600C3D587 /* LBXPermissionNetwork.h */,
+				490B950F2122CC4600C3D587 /* LBXPermissionMicrophone.h */,
+				490B95102122CC4600C3D587 /* LBXPermissionLocation.m */,
+				490B95112122CC4600C3D587 /* LBXPermissionContacts.m */,
+				490B95122122CC4600C3D587 /* LBXPermissionCamera.m */,
+				490B95132122CC4600C3D587 /* LBXPermission.m */,
+				490B95142122CC4600C3D587 /* LBXPermissionPhotos.h */,
+				490B95152122CC4600C3D587 /* LBXPermissionSetting.h */,
+				490B95162122CC4600C3D587 /* LBXPermissionHealth.h */,
+				490B95172122CC4600C3D587 /* LBXPermissionReminders.h */,
+			);
+			path = LBXPermissions;
+			sourceTree = "<group>";
+		};
 		49343F59211D3309007FC853 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +214,7 @@
 		49343F64211D3309007FC853 /* SceneKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				490B95012122CC4600C3D587 /* LBXPermissions */,
 				4934408221229DD3007FC853 /* SocketTool */,
 				490B94EB2122C39700C3D587 /* YXScanQRCodeController.h */,
 				490B94EA2122C39700C3D587 /* YXScanQRCodeController.m */,
@@ -158,6 +222,7 @@
 				49343F66211D3309007FC853 /* AppDelegate.m */,
 				49343F68211D3309007FC853 /* ViewController.h */,
 				49343F69211D3309007FC853 /* ViewController.m */,
+				490B95232122CCC200C3D587 /* Header.h */,
 				49343F73211D3309007FC853 /* Info.plist */,
 			);
 			path = SceneKitDemo;
@@ -244,6 +309,7 @@
 				49343F5E211D3309007FC853 /* Sources */,
 				49343F5F211D3309007FC853 /* Frameworks */,
 				49343F60211D3309007FC853 /* Resources */,
+				A693C680E07C3D1C03AEF986 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -420,6 +486,32 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A693C680E07C3D1C03AEF986 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SceneKitDemo/Pods-SceneKitDemo-resources.sh",
+				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CodeScan.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-helpicons.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-samples.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SceneKitDemo/Pods-SceneKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -427,13 +519,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490B95202122CC4600C3D587 /* LBXPermissionContacts.m in Sources */,
+				490B95222122CC4600C3D587 /* LBXPermission.m in Sources */,
 				4934409021229EC9007FC853 /* GCDAsyncSocket.m in Sources */,
+				490B951D2122CC4600C3D587 /* LBXPermissionSetting.m in Sources */,
+				490B951C2122CC4600C3D587 /* LBXPermissionHealth.m in Sources */,
 				49343F6A211D3309007FC853 /* ViewController.m in Sources */,
+				490B951E2122CC4600C3D587 /* LBXPermissionPhotos.m in Sources */,
+				490B951B2122CC4600C3D587 /* LBXPermissionReminders.m in Sources */,
 				490B94EC2122C39700C3D587 /* YXScanQRCodeController.m in Sources */,
+				490B95212122CC4600C3D587 /* LBXPermissionCamera.m in Sources */,
 				4934408F21229EC9007FC853 /* GCDAsyncUdpSocket.m in Sources */,
 				49343F75211D3309007FC853 /* main.m in Sources */,
+				490B95192122CC4600C3D587 /* LBXPermissionNetwork.m in Sources */,
 				4934408521229E09007FC853 /* SocketTool.m in Sources */,
 				49343F67211D3309007FC853 /* AppDelegate.m in Sources */,
+				490B95182122CC4600C3D587 /* LBXPermissionMicrophone.m in Sources */,
+				490B951F2122CC4600C3D587 /* LBXPermissionLocation.m in Sources */,
+				490B951A2122CC4600C3D587 /* LBXPermissionCalendar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +708,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APWQ5L9FQ3;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = SceneKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -624,6 +729,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APWQ5L9FQ3;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = SceneKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
