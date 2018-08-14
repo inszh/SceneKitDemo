@@ -7,7 +7,11 @@
 //
 
 #import "ViewController.h"
+
 #import <SceneKit/SceneKit.h>
+#import "YXScanQRCodeController.h"
+#import "SocketTool.h"
+
 @interface ViewController ()<UIScrollViewDelegate>
 
 @property (nonatomic ,strong)SCNView *scnView;
@@ -22,8 +26,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self setupView];
+    [SocketTool sharedInstance].socketHost =@"192.168.2.120"; // ip
+    [SocketTool sharedInstance].socketPort = 9527;// port设定
+    [[SocketTool sharedInstance] cutOffSocket];
+    [[SocketTool sharedInstance] socketConnectHost];
+    
+//    [self setupView];
+    
+   
 }
+- (IBAction)takeQR:(id)sender
+{
+
+    YXScanQRCodeController *scan = [YXScanQRCodeController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:scan];
+    [self.navigationController presentViewController:nav animated:YES completion:nil];
+    
+}
+
 
 
 - (void)setupView {
@@ -83,14 +103,11 @@
     
     if([hitResults count] > 0){
         SCNHitTestResult *result = hitResults.firstObject;
-        NSLog(@"%@",self.scnView.scene.rootNode.childNodes.firstObject);
-        
 //        SCNNode *node = result.node;
         CGFloat x =result.localCoordinates.x;
         CGFloat y =result.localCoordinates.y;
         CGFloat z =result.localCoordinates.z;
         NSLog(@"%f--%f--%f",x,y,z);
-        
         
     }
     
